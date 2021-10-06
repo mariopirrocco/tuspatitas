@@ -1,31 +1,8 @@
-
-
-
 @import "colores";
+@import "animations";
 @import "defaults";
 
 
-@keyframes moveFromBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(5rem); }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1;
-    transform: translateY(0rem); 
-  } 
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1;    
-  } 
-}
 
 
 
@@ -39,7 +16,7 @@ header {
 	width: 100%;	
 	position: fixed;
 	background: white;
-	border-bottom: 1px solid #e6e6e6;
+	border-bottom: 1px solid $color-secundario;
 	z-index: 2000;
 }
 header #logo {
@@ -75,10 +52,10 @@ a.navbar-brand:hover {
 	font-size: 18px;
 }
 .navbar-light .navbar-nav .nav-link {
-	color: black;
+	color: $color-oscuro;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: white
+	color: $color-claro;
 }
 .navbar-light .navbar-toggler {
 	border: none;
@@ -98,7 +75,6 @@ a.navbar-brand:hover {
 }
 
 
-
 /* ===================
 Banner principal 
  =================== */
@@ -110,26 +86,26 @@ Banner principal
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border-bottom: 1px solid #e6e6e6;
+	border-bottom: 1px solid $color-secundario;
 	background: url(../media/header-test.png) no-repeat;
 	border-bottom: 1px solid #bfbcbc;
 	background-size: contain;
-	animation: fadeIn 1.5s ease-in-out;
+	animation: fadeIn 1.6s ease-in-out;
 	animation-delay: 0;
 	animation-fill-mode: backwards;
 }
 #mainBanner p.heading--big {
-	animation: moveFromBottom 1.8s ease-in-out;
+	animation: moveFromBottom 1.2s ease-in-out;
 	animation-delay: .5s;
   animation-fill-mode: backwards;
 }
 #mainBanner p {
-	animation: moveFromBottom 1.8s ease-in-out;
+	animation: moveFromBottom 1.2s ease-in-out;
 	animation-delay: .9s;
   animation-fill-mode: backwards;
 }
 #mainBanner a.btn {
-	animation: moveFromBottom 1.8s ease-in-out;
+	animation: moveFromBottom 1.2s ease-in-out;
 	animation-delay: 1.3s;
   animation-fill-mode: backwards;
 }
@@ -173,7 +149,7 @@ main#inicio {
 	margin-bottom: 2rem;
 }
 #inicio__intro, #somos__intro {
-	background-color: #e6e6e6;
+	background-color: $color-secundario;
 }
 #inicio__servicios .section__media {
 	display: flex;
@@ -198,7 +174,7 @@ main#inicio {
 	max-width: 300px;
 	padding: 1.3rem 1.3rem 0;
 	margin: 5rem auto 2.6rem;
-	border: 1px solid #e6e6e6;
+	border: 1px solid $color-secundario;
 	border-radius: 8px;
 }
 #inicio__equipo .memberCard img {
@@ -383,6 +359,9 @@ textarea {
 	#mainBanner {
 		flex-direction: row;
 		justify-content: flex-start;
+	}
+	#mainBanner__content {
+		padding: 0 6rem;
 	}
 	header.container-fluid ~ #mainBanner #mainBanner__content {
 		margin-top: 0rem;
