@@ -1,0 +1,14 @@
+@mixin animaInicio($nombre, $tiempo, $tipo, $demora, $modo){
+	animation: $nombre $tiempo $tipo;
+	animation-delay: $demora;
+  animation-fill-mode: $modo;
+};
+
+
+@each $seccion in inicio, servicios, somos, preguntas, contacto {
+	.mainBanner__header--#{$seccion} {
+		background: url('../media/header-#{$seccion}-mobile.jpg') center center no-repeat;
+		background-size: cover;
+	}
+}
+
