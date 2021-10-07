@@ -32,6 +32,15 @@ a {
 input.btn {
 	border: none;
 }
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;	
+	margin-bottom: 1.1rem;
+	text-align: center;
+	&.desk {
+		display: none;
+	}
+}
 p {
 	margin-bottom: 1.3rem;
 	&.heading {
@@ -56,9 +65,7 @@ p {
 	&.staffData {
 		text-align: left;
 	}
-	&.desk {
-		display: none;
-	}
+	
 }
 ul.copy {
 	margin: -1rem 0 1.3rem;

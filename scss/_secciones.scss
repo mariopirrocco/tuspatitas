@@ -99,13 +99,14 @@ Banner principal
 		backwards);
 	}
 
-	p {
+	h1 {
 		@include animaInicio(
 		moveFromBottom, 
 		1.2s, 
 		ease-in-out, 
 		1.6s, 
 		backwards);
+
 	}
 
 	a.btn {
@@ -261,7 +262,8 @@ textarea {
 }
 
 @media screen and (min-width: 767px) {
-	p {
+	h2 {
+		text-align: left;
 		&.mobile {
 			display: none;
 		}
@@ -277,7 +279,7 @@ textarea {
 		text-align: center;
 	}
 	.mainBanner__content {
-		p {
+		h1{
 			font-size: 1.3rem;
 			margin-bottom: 2rem;
 		}
@@ -322,10 +324,7 @@ textarea {
 	.inicio__servicios {
 		.row {
 			flex-direction: row-reverse;
-		}
-		// p.heading--medium {
-		// 	text-align: left;
-		// }			
+		}		
 	}
 	.inicio__equipo.container {
 		max-width: 56.1875rem;
@@ -357,7 +356,7 @@ textarea {
 	.mainBanner {
 		flex-direction: row;
 		justify-content: flex-start;
-		p {
+		h1 {
 			text-align: left;
 			margin-top: 0;
 		}
