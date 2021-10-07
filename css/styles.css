@@ -562,7 +562,7 @@ textarea {
   }
   /* line 310, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content {
-    margin-top: -27rem;
+    margin-top: -14rem;
   }
   /* line 313, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content--inicio {
@@ -579,10 +579,6 @@ textarea {
   /* line 323, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__servicios .row {
     flex-direction: row-reverse;
-  }
-  /* line 326, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
-  .inicio__servicios p.heading--medium {
-    text-align: left;
   }
   /* line 330, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__equipo.container {
