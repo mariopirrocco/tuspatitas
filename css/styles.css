@@ -463,32 +463,37 @@ section.preguntas {
   color: #c49b06;
 }
 
+/* line 224, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+.accordion h2 {
+  font-family: Lato, sans-serif;
+}
+
 /* =================== 
 Seccion Contacto
 ==================== */
-/* line 228, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 231, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 .contactoForm .container {
   max-width: 37.5rem;
   padding-bottom: 1rem;
 }
 
-/* line 232, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 235, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 legend {
   font-size: 1.2rem;
 }
 
-/* line 235, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 238, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 label {
   display: block;
 }
 
-/* line 238, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 241, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 select {
   margin-bottom: 1.125rem;
   max-width: 140px;
 }
 
-/* line 242, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 245, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 textarea {
   width: 100%;
   margin-bottom: 1rem;
@@ -497,194 +502,194 @@ textarea {
   border: 1px solid #ced4da;
 }
 
-/* line 249, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 252, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 .controles {
   text-align: center;
   margin: 1rem;
 }
 
-/* line 253, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 256, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 .form-check-input {
   margin-top: .4rem;
 }
 
-/* line 256, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 259, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 .modal.show .modal-dialog {
   padding-top: 150px;
 }
 
-/* line 259, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+/* line 262, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
 .modal-body {
   text-align: center;
   padding: 2rem 0 1rem;
 }
 
 @media screen and (min-width: 767px) {
-  /* line 265, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 268, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   h2 {
     text-align: left;
   }
-  /* line 267, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 270, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   h2.mobile {
     display: none;
   }
-  /* line 270, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 273, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   h2.desk {
     display: block;
     text-align: left;
   }
-  /* line 275, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 278, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .reverse {
     flex-direction: row-reverse;
   }
-  /* line 278, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 281, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   footer {
     text-align: center;
   }
-  /* line 282, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 285, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content h1 {
     font-size: 1.3rem;
     margin-bottom: 2rem;
   }
-  /* line 286, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 289, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content p.heading--big {
     font-size: 3.1rem;
     line-height: 1.2;
     margin-bottom: .5rem;
   }
-  /* line 292, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 295, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--inicio {
     background: url("../media/header-inicio-ipad.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 296, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 299, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--servicios {
     background: url("../media/header-servicios-ipad.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 300, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 303, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--somos {
     background: url("../media/header-somos-ipad.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 304, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 307, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--preguntas {
     background: url("../media/header-preguntas-ipad.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 308, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 311, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--contacto {
     background: url("../media/header-contacto-ipad.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 312, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 315, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content {
     margin-top: -14rem;
   }
-  /* line 315, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 318, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content--inicio {
     margin-top: -30rem;
   }
-  /* line 318, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 321, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__intro {
     padding: 0;
   }
-  /* line 320, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 323, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__intro .row {
     align-items: center;
   }
-  /* line 325, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 328, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__servicios .row {
     flex-direction: row-reverse;
   }
-  /* line 329, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 332, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__equipo.container {
     max-width: 56.1875rem;
   }
-  /* line 332, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 335, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__galeria {
     padding: 25px;
   }
-  /* line 335, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 338, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .servicios .row {
     margin: 1.6rem 0;
   }
-  /* line 338, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 341, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .servicios__img {
     text-align: right;
   }
-  /* line 340, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 343, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .servicios__img img {
     max-width: 80%;
   }
 }
 
 @media screen and (min-width: 1023px) {
-  /* line 347, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 350, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .navbar li a.active,
   .navbar li a:hover {
     background: #666;
     color: #fff !important;
   }
-  /* line 352, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 355, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  /* line 356, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 359, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner, .mainBanner__header--inicio, .mainBanner__header--servicios, .mainBanner__header--somos, .mainBanner__header--preguntas, .mainBanner__header--contacto {
     flex-direction: row;
     justify-content: flex-start;
   }
-  /* line 359, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 362, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner h1, .mainBanner__header--inicio h1, .mainBanner__header--servicios h1, .mainBanner__header--somos h1, .mainBanner__header--preguntas h1, .mainBanner__header--contacto h1 {
     text-align: left;
     margin-top: 0;
   }
-  /* line 363, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 366, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner p.heading.heading--big, .mainBanner__header--inicio p.heading.heading--big, .mainBanner__header--servicios p.heading.heading--big, .mainBanner__header--somos p.heading.heading--big, .mainBanner__header--preguntas p.heading.heading--big, .mainBanner__header--contacto p.heading.heading--big {
     text-align: left;
     margin-top: 0;
   }
-  /* line 368, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 371, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content {
     padding: 0 2rem;
     margin-top: 0;
   }
-  /* line 371, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 374, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__content a.btn {
     margin-left: 0;
   }
-  /* line 377, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 380, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--inicio {
     background: url("../media/header-inicio-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 381, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 384, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--servicios {
     background: url("../media/header-servicios-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 386, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 389, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--somos {
     background: url("../media/header-somos-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 390, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 393, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--preguntas {
     background: url("../media/header-preguntas-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 394, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 397, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--contacto {
     background: url("../media/header-contacto-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 398, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 401, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__servicios .section__media {
     flex-wrap: wrap;
   }
-  /* line 401, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 404, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__servicios .section__media img {
     width: 50%;
   }
