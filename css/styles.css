@@ -660,36 +660,36 @@ textarea {
   .mainBanner__content a.btn {
     margin-left: 0;
   }
-  /* line 380, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 378, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--inicio {
     background: url("../media/header-inicio-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 384, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 382, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--servicios {
     background: url("../media/header-servicios-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 389, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 387, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--somos {
     background: url("../media/header-somos-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 393, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 391, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--preguntas {
     background: url("../media/header-preguntas-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 397, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 395, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .mainBanner__header--contacto {
     background: url("../media/header-contacto-full.jpg") center center no-repeat;
     background-size: cover;
   }
-  /* line 401, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 399, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__servicios .section__media {
     flex-wrap: wrap;
   }
-  /* line 404, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
+  /* line 402, ../../../../../Library/WebServer/Documents/coderhouse/desarrollo-web/git/scss/_secciones.scss */
   .inicio__servicios .section__media img {
     width: 50%;
   }
