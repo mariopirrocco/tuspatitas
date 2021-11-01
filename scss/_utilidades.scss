@@ -10,5 +10,18 @@
 		background: url('../media/header-#{$seccion}-mobile.jpg') center center no-repeat;
 		background-size: cover;
 	}
+	@media screen and (min-width: 767px) {
+		.mainBanner__header--#{$seccion} {
+			background: url('../media/header-#{$seccion}-ipad.jpg') center center no-repeat;
+		}	
+	}
+	@media screen and (min-width: 1023px) {
+		.mainBanner__header--#{$seccion} {
+			background: url('../media/header-#{$seccion}-full.jpg') center center no-repeat;
+		}	
+	}
+	[class*="mainBanner__header--"] {
+		background-size: cover;
+	}
 }
 

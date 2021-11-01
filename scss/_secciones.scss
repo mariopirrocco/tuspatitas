@@ -120,22 +120,12 @@ Banner principal
 	}
 }
 
-.mainBanner__header--inicio {
+.mainBanner__header--inicio,
+.mainBanner__header--servicios,
+.mainBanner__header--somos,
+.mainBanner__header--preguntas,
+.mainBanner__header--contacto  {
 	@extend .mainBanner;
-}
-
-.mainBanner__header--servicios {
-	@extend .mainBanner;
-}
-
-.mainBanner__header--somos {
-	@extend .mainBanner;		
-}
-.mainBanner__header--preguntas {
-	@extend .mainBanner;		
-}
-.mainBanner__header--contacto {
-	@extend .mainBanner;		
 }
 .mainBanner__content p.heading--big, .mainBanner__content--inicio p.heading--big {
 	margin-top: -14rem;
@@ -154,6 +144,9 @@ Seccion Inicio
 }
 .inicio__servicios .section__media img {
 	width: 25%;
+}
+.inicio__servicios {
+	background: white;
 }
 .inicio__galeria {
 	background: rgb(255,255,255);
@@ -178,6 +171,9 @@ Seccion Inicio
 }
 .carousel-inner {
 	border-radius: 14px;
+}
+#mapa {
+	margin-bottom: -7px;
 }
 
 /* =================== 
@@ -292,26 +288,6 @@ textarea {
 			margin-bottom: .5rem;
 		}		
 	}
-	.mainBanner__header--inicio {
-		background: url('../media/header-inicio-ipad.jpg') center center no-repeat;	
-		background-size: cover;		
-	}
-	.mainBanner__header--servicios {
-		background: url('../media/header-servicios-ipad.jpg') center center no-repeat;
-		background-size: cover;	
-	}
-	.mainBanner__header--somos {
-		background: url('../media/header-somos-ipad.jpg') center center no-repeat;
-		background-size: cover;		
-	}
-	.mainBanner__header--preguntas{
-		background: url('../media/header-preguntas-ipad.jpg') center center no-repeat;
-		background-size: cover;		
-	}
-	.mainBanner__header--contacto {
-		background: url('../media/header-contacto-ipad.jpg') center center no-repeat;
-		background-size: cover;		
-	}
 	.mainBanner__content {
 		margin-top: -14rem;
 	}
@@ -320,11 +296,14 @@ textarea {
 	}
 	.inicio__intro {
 		padding: 0;
+		margin-bottom: -6px;
 		.row {
 			align-items: center;
 		}	
+		
 	}	
 	.inicio__servicios {
+		padding: 5.375rem 0;
 		.row {
 			flex-direction: row-reverse;
 		}		
@@ -375,35 +354,13 @@ textarea {
 			margin-left: 0;
 		}
 	}	
-	.mainBanner__header--inicio {
-		background: url('../media/header-inicio-full.jpg') center center no-repeat;			
-		background-size: cover;
-	}
-	.mainBanner__header--servicios {
-		background: url('../media/header-servicios-full.jpg') center center no-repeat;	
-		background-size: cover;
-
-	}
-	.mainBanner__header--somos {
-		background: url('../media/header-somos-full.jpg') center center no-repeat;		
-		background-size: cover;
-	}
-	.mainBanner__header--preguntas{
-		background: url('../media/header-preguntas-full.jpg') center center no-repeat;		
-		background-size: cover;
-	}
-	.mainBanner__header--contacto {
-		background: url('../media/header-contacto-full.jpg') center center no-repeat;		
-		background-size: cover;
-	}
 	.inicio__servicios .section__media {
 		flex-wrap: wrap;
+		img {		
+			width: 50%;
+		}
 	}
-	.inicio__servicios .section__media img {		
-		width: 50%;
-	}
-}
-
+	
 @media screen and (min-width: 1440px) {
 	
 }
