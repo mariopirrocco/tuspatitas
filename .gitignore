@@ -33,3 +33,5 @@ logs
 *.sql
 
 test/
+
+node_modules
