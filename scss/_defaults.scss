@@ -31,6 +31,12 @@ a {
 }
 input.btn {
 	border: none;
+	background-color: $color-primario;
+	color: $color-claro;
+	padding: .5rem 2.2rem;
+	border-radius: 40px;
+	margin: 0 1rem;
+	transition: all .2s ease-in-out;
 }
 h1 {
 	font-size: 1.1rem;

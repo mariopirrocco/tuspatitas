@@ -99,6 +99,15 @@ Banner principal
 		backwards);
 	}
 
+	p.big-text {
+		@include animaInicio(
+		moveFromBottom, 
+		1.2s, 
+		ease-in-out, 
+		1.6s, 
+		backwards);
+	}
+
 	h1 {
 		@include animaInicio(
 		moveFromBottom, 
@@ -142,8 +151,8 @@ Seccion Inicio
 .inicio__intro, #somos__intro {
 	background-color: $color-secundario;
 }
-.inicio__servicios .section__media img {
-	width: 25%;
+.inicio__servicios .section__media div {
+	width: 25%; 
 }
 .inicio__servicios {
 	background: white;
@@ -286,10 +295,14 @@ textarea {
 			font-size: 3.1rem;
 			line-height: 1.2;
 			margin-bottom: .5rem;
-		}		
+		}
+		p.big-text {
+			font-size: 1.2rem;
+		}	
 	}
 	.mainBanner__content {
 		margin-top: -14rem;
+
 	}
 	.mainBanner__content--inicio {
 		margin-top: -30rem;
@@ -300,7 +313,6 @@ textarea {
 		.row {
 			align-items: center;
 		}	
-		
 	}	
 	.inicio__servicios {
 		padding: 5.375rem 0;
@@ -325,7 +337,20 @@ textarea {
 	}
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 992px) {
+	.inicio__servicios .section__media {
+		flex-wrap: wrap;
+		div {		
+			width: 50%;
+			img {
+				// box-shadow: 0 0 4px rgba(0,0,0,.3)
+			}
+		}
+	}
+	
+}
+
+@media screen and (min-width: 1024px) {
 	.navbar li a.active, 
 	.navbar li a:hover {
 		background: #666;
@@ -338,6 +363,7 @@ textarea {
 	.mainBanner {
 		flex-direction: row;
 		justify-content: flex-start;
+		text-align: left;
 		h1 {
 			text-align: left;
 			margin-top: 0;
@@ -354,13 +380,11 @@ textarea {
 			margin-left: 0;
 		}
 	}	
-	.inicio__servicios .section__media {
-		flex-wrap: wrap;
-		img {		
-			width: 50%;
-		}
+	
+}
+
+@media screen and (min-width: 1500px) {
+	.mainBanner__content {
+		padding: 0 12rem;
 	}
-	
-@media screen and (min-width: 1440px) {
-	
 }

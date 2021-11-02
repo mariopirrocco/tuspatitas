@@ -8,6 +8,7 @@
 	<title>Tus Patitas - Hotel para mascotas (Uruguay)</title>
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -58,9 +59,9 @@
 		</div>				
 	</div>
 	<main class="inicio">
-		<section class="inicio__intro">		
-			<div class="container ">
-				<div class="row">
+		<section class="inicio__intro" >		
+			<div class="container">
+				<div class="row" data-aos="fade-up">
 					<div class="col-lg-6">
 						<p>
 							En <span class="brand">Tus Patitas - Hotel Para Mascotas</span> entendemos perfectamente el cuidado y cariño que le prodigas a tus mascotas. 
@@ -78,7 +79,7 @@
 
 		<section class="inicio__servicios ">
 			<div class="container">
-				<div class="row">
+				<div class="row" data-aos="fade-up">
 					<div class="col-12 col-lg-6">
 						<h2>
 							Servicios
@@ -102,20 +103,41 @@
 						</ul>
 					</div>
 					<div class="section__media d-flex col-lg-6">
-						<img src="media/servicios-hospedaje.png" alt="Servicios-Hospedaje" loading="lazy">
-						<img src="media/servicios-grooming.png" alt="Servicios-Grooming" loading="lazy">
-						<img src="media/servicios-vacunaciones.png" alt="Servicios-Vacunaciones" loading="lazy">
-
-						<img src="media/servicios-adopting.png" 
-											alt="Servicios-Adopciones" 
-											srcset="media/servicios-adopting-ipad.png 640w, media/servicios-adopting-full.png 1024w, media/servicios-adopting-cel.png" 
-											loading="lazy">
+						<div>
+							<img src="media/servicios-hospedaje-cel.png" 
+												alt="Servicios-Hospedaje" 
+												srcset="media/servicios-hospedaje-cel.png 120w, media/servicios-hospedaje-ipad.png 240w, media/servicios-hospedaje-full.png 418w"
+												sizes="100vw" 
+												loading="lazy">						
+						</div>
+						<div>
+							<img src="media/servicios-grooming-cel.png" 
+												alt="Servicios-Grooming" 
+												srcset="media/servicios-grooming-cel.png 120w, media/servicios-grooming-ipad.png 240w, media/servicios-grooming-full.png 418w"
+												sizes="100vw" 
+												loading="lazy">						
+						</div>
+						<div>
+							<img src="media/servicios-vacunaciones-cel.png" 
+												alt="Servicios-Vacunaciones" 
+												srcset="media/servicios-vacunaciones-cel.png 120w, media/servicios-vacunaciones-ipad.png 240w, media/servicios-vacunaciones-full.png 418w"
+												sizes="100vw" 
+												loading="lazy">
+						</div>
+						
+						<div>
+							<img src="media/servicios-adopting-cel.png" 
+												alt="Servicios-Adopciones" 
+												srcset="media/servicios-adopting-cel.png 120w, media/servicios-adopting-ipad.png 240w, media/servicios-adopting-full.png 418w"
+												sizes="100vw" 
+												loading="lazy">						
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		
-		<section class="inicio__galeria">
+		<section class="inicio__galeria" data-aos="fade-up" data-aos-delay="350" data-aos-duration="400">>
 			<div class="container">
 				<div id="slider-gallery" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
@@ -125,13 +147,22 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img src="media/slider-dog-1.jpg" class="d-block w-100" alt="Pasajeros en Tus Patitas Pets Hotel" loading="lazy">
+				      <img src="media/slider-dog-1-cel.png" 
+				      			srcset="media/slider-dog--cel.png 420w, media/slider-dog--ipad.png 700w, media/slider-dog-1-full.jpg 1100w" 
+				      			sizes="100vw" 
+				      			class="d-block w-100" alt="Pasajeros en Tus Patitas Pets Hotel" loading="lazy">
 				    </div>
 				    <div class="carousel-item">
-				      <img src="media/slider-dog-2.jpg" class="d-block w-100" alt="Pasajeros en Tus Patitas Pets Hotel" loading="lazy">
+				      <img src="media/slider-dog-2-cel.png" 
+				      			srcset="media/slider-dog--cel.png 420w, media/slider-dog--ipad.png 700w, media/slider-dog-2-full.jpg 1100w" 
+				      			sizes="100vw" 
+				      			class="d-block w-100" alt="Pasajeros en Tus Patitas Pets Hotel" loading="lazy">
 				    </div>
 				    <div class="carousel-item">
-				      <img src="media/slider-dog-3.jpg" class="d-block w-100" alt="Pasajeros en Tus Patitas Pets Hotel" loading="lazy">
+				      <img src="media/slider-dog-3-cel.png" 
+				      			srcset="media/slider-dog--cel.png 420w, media/slider-dog--ipad.png 700w, media/slider-dog-3-full.jpg 1100w" 
+				      			sizes="100vw" 
+				      			class="d-block w-100" alt="Pasajeros en Tus Patitas Pets Hotel" loading="lazy">
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#slider-gallery" role="button" data-slide="prev">
@@ -147,33 +178,33 @@
 		</section>	
 		<section class="inicio__equipo container">	
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12" data-aos="fade-up" data-aos-delay="350" data-aos-duration="400">
 					<h2 class="text-center pb-4">					
 						Equipo					
 					</h2>
 				</div>				
-				<div class="memberCard col-12 col-md-6">
+				<div class="memberCard col-12 col-md-6" data-aos="fade-up" data-aos-delay="350" data-aos-duration="400">
 					<img class="staff-principal" src="media/staff-ana-rey.png" alt="Ana Rey" loading="lazy">
 					<p class="nombre">Ana Rey</p>
 					<p class="staffData">
 						Ingeniera agrónoma, apasionada por la vida al aire libre y las mascotas es el motor pasional del Hotel. Fue quien concibió las primeras etapas del proyecto, gestionó la locación del parque y sigue siendo la cara de bienvenida para quienes llegan hasta el Hotel!
 					</p>
 				</div>
-				<div class="memberCard col-12 col-md-6">
+				<div class="memberCard col-12 col-md-6" data-aos="fade-up" data-aos-delay="350" data-aos-duration="400">
 					<img class="staff-principal" src="media/staff-daniel-rey.png" alt="Daniel Rey" loading="lazy">
 					<p class="nombre">Daniel Rey</p>
 					<p class="staffData">
 						Contador de profesión (aquí en compañía de Duke), es el padre de Ana y el cerebro económico que hace viable este maravilloso emprendimiento. Poniendo el bienestar de los animales ante todo siempre tiene una solución para mejorar nuestro servicio.
 					</p>
 				</div>
-				<div class="memberCard col-12 col-md-6">
+				<div class="memberCard col-12 col-md-6" data-aos="fade-up" data-aos-delay="350" data-aos-duration="400">
 					<img class="staff-principal" src="media/staff-romina-barcelo.png" alt="Romina Barceló" loading="lazy">
 					<p class="nombre">Romina Barceló</p>
 					<p class="staffData">
 						Veterinaria, convencida desde muy pequeña que su vida iba a estar dedicada a los animales, es amiga de Ana desde la infancia. No dudó un segundo cuando se le preguntó si quería formar parte del Staff. Con más de 15 años en la profesión es quien está 24/7 cuidando la salud de nuestros huéspedes.
 					</p>
 				</div>
-				<div class="memberCard col-12 col-md-6">
+				<div class="memberCard col-12 col-md-6" data-aos="fade-up" data-aos-delay="350" data-aos-duration="400">
 					<img class="staff-principal" src="media/staff-claudia-camino.png" alt="Claudia Camino" loading="lazy">
 					<p class="nombre">Claudia Camino</p>
 					<p class="staffData">
@@ -185,9 +216,8 @@
 				<a href="quienes-somos.html" class="btn">
 					Conoce al resto del equipo
 				</a>
-			</div>
-			
-		</div>	
+			</div>			
+		</section>	
 	</main>
 	<section id="mapa" class="">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.385680537928!2d-56.01942208433745!3d-34.871660280390884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f88a2675083e5%3A0x91b50e74710b2396!2sBarra%20de%20Carrasco%2C%2015000%20Ciudad%20de%20la%20Costa%2C%20Departamento%20de%20Canelones!5e0!3m2!1ses!2suy!4v1630590598911!5m2!1ses!2suy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -212,5 +242,11 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init({
+		delay: 50
+	}); 
+</script>
 </body>
 </html>
